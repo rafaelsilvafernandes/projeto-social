@@ -5,7 +5,7 @@
 
 body {
     height: 100vh;
-    background-image: url(../pacote-d013/imagens/fundo-madeira.jpg);
+    background-image: url(../imagens/fundo-madeira.jpg);
     background-repeat: repeat;
     background-position: right;
     background-size: cover;
@@ -43,7 +43,7 @@ main {
     transform: translate(-50%, -50%);
     height: 627px;
     width: 311px;
-    background: url(../pacote-d013/imagens/frame-iphone.png) no-repeat;
+    background: url(../imagens/frame-iphone.png) no-repeat;
 }
 
 iframe {
