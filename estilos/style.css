@@ -36,7 +36,7 @@ main {
     transform: scale(1.1);
 }
 
-#telefone{
+#telefone {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -44,6 +44,23 @@ main {
     height: 627px;
     width: 311px;
     background: url(../imagens/frame-iphone.png) no-repeat;
+}
+
+@media screen and (max-width: 498px) {
+    #telefone {
+        width: 311px;
+        height: 400px;
+        width: 200px;
+        background: url(../imagens/frame-iphone-pq.png) no-repeat;
+    }
+
+    section iframe {
+        position: relative;
+        top: 51px;
+        left: 14px;
+        width: 172px;
+        height: 300px;
+    }
 }
 
 iframe {
